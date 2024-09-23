@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DS.fun - Jogos Divertidos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" class="logo-img">
+        </div>
+        <section class="search-bar">
+            <input type="text" placeholder="Buscar jogos..." id="searchInput">
+            <button onclick="searchGames()">Buscar</button>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#" class="navegacao">Início</a></li>
+                <li><a href="#" class="navegacao">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="games-grid" id="gamesGrid">
+            <!-- Jogos serão carregados aqui -->
+            <a href="views/minceraft.html">
+            <div class="game-item">
+                <img src="images/jogo1.jpeg" alt="Jogo 1">
+                <h2>Minceraft</h2>
+            </div>
+            </a>
+            <a href="views/8-ball-pool.html">
+            <div class="game-item">
+                <img src="images/jogo2.jpg" alt="Jogo 2">
+                <h2>8 Ball Pool</h2>
+            </div>
+            </a>
+            <!-- Continue adicionando jogos aqui -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 DS.fun - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
